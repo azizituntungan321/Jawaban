@@ -1,0 +1,1 @@
+select u.name, count(s.user_id) as 'jumlah_skill' from skills s, users u where u.id=s.user_id group by u.id;
