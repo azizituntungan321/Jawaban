@@ -1,0 +1,43 @@
+#Bootcamp Arkademy
+Azizi Mukmin - Unhar Medan
+Note: Semua jawaban dibuat menggunakan bahasa PHP
+
+REST ( Representational State Transfer) itu arsitektur sebuah software, sedangkan REST API 
+itu merupakan salah satu model implementasi dari web service. REST API merupakan 
+implementasi dari API. REST API itu protokol/aturan untuk melakukan REST. Jadi REST API itu 
+sudah pasti REST, namun REST belum tentu bisa disebut REST API. 
+
+API adalah singkatan dari Application Programming Interface. Merupakan suatu “penghubung” 
+yang memungkinkan suatu aplikasi untuk berinteraksi dengan aplikasi lainnya dan berbagi data 
+(https://en.wikipedia.org/wiki/Application_programming_interface). 
+
+Output dari REST API ada XML dan JSON: 
+JSON (JavaScript Object Notation), beberapa ciri-ciri JSON. 
+1.  Mudah di urai, bahkan oleh javascript pada sisi client, hanya object biasa 
+2.  Data transport lebih kecil 
+3.  Proses urai lebih cepat 
+
+XML (Extensible Markup Language), beberapa ciri-ciri XML 
+1.  Butuh XML Document untuk mengurai seperti Xpath 
+2.  Data transport lebih besar 
+3.  Proses urai lebih lambat 
+
+JSON merupakan open standard untuk pertukaran data yang berupa teks. Dengan menggunakan 
+syntax yang sederhana, anda bisa menyimpan apapun, mulai dari data berupa number, string, array dan 
+object dalam bentuk teks. Sekali anda membuat string JSON, maka cukup mudah untuk mengirimkannya 
+ke aplikasi lain, karena ia hanya berupa teks. 
+JSON merupakan kepanjangan dari JavaScript Object Notation. Sesuai dengan namanya, maka ia 
+berdasarkan bagaimana anda mendefinisikan obyek dan array. 
+
+Beberapa kelebihan dan manfaat dari JSON antara lain:  
+1. Mudah dibaca atau ditulis oleh komputer atau manusia 
+2. Hampir  semua  bahasa  pemrograman  menyediakan  library  atau  function  yang  memudahkan untuk membaca atau membuat struktur JSON 
+3. JSON mudah sekali dipetakan pada struktur data yang digunakan oleh sebagian besar bahasa pemrograman terkait data berupa number, string, boolean, null, array dan associative array. 
+ 
+Manfaat JSON:
+JSON  pada  umumnya  sering  digunakan  pada  aplikasi  web  untuk  mengirim  data  dari  server  ke browser. Sebagai contoh kasus misalnya seperti ini: 
+1. Seorang user melakukan klik pada gambar thumbnail sebuah produk yang dijual disebuah toko online 
+2. Selanjutnya  script  Javascript  dijalankan  pada  browser,  melakukan  Ajax  request  ke  script  PHP yang dijalankan pada server, melemparkan ID dari produk yang dipilih 
+3. Kemudian script PHP mengambil data nama produk, deskripsi, harga dan info-info lainnya dari database. Kemudian data dirubah dalam bentuk JSON dan dikirimkan kembali ke browser 
+4. Javascript  yang  jalan  di  browser  kemudian  membaca  format  JSON  dan  menampilkan  detail informasi pada user 
+5. Saat proses itu terjadi, browser pada user tidak perlu reload atau berganti halaman. Semuanya terjadi di backgroud.
